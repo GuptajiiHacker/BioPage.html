@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+
+  body {
+  background: #000;
+  color: #fff;
+  }
+  .neonx {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+  }
+  h1 {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Megrim', cursive;
+  text-shadow: 
+        0 0 5px #0bf4f3,
+        0 0 10px #0bf4f3,
+        0 0 20px #0bf4f3,
+        0 0 40px #0bf4f3,
+        0 0 80px #0bf4f3;
+  }
+
+  p {
+  font-family: 'Pompiere', cursive;
+  font-weight: 300;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  }
+  .frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+  }
+  button {
+  margin: 20px;
+  }
+  .custom-btn {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  }
+
+  /* 1 */
+  .btn-1 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-1:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-1:hover {
+
+  }
+  .btn-1:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-1:active {
+  top: 2px;
+  }
+  /* 2 */
+  .btn-2 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-2:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-2:hover {
+
+  }
+  .btn-2:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-2:active {
+  top: 2px;
+  }
+  /* 3 */
+  .btn-3 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-3:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-3:hover {
+
+  }
+  .btn-3:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-3:active {
+  top: 2px;
+  }
+  /* 4 */
+  .btn-4 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-4:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-4:hover {
+
+  }
+  .btn-4:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-4:active {
+  top: 2px;
+  }/* 5 */
+  .btn-5 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-5:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-5:hover {
+
+  }
+  .btn-5:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-5:active {
+  top: 2px;
+  }/* 6 */
+  .btn-6 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-6:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-6:hover {
+
+  }
+  .btn-6:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-6:active {
+  top: 2px;
+  }
+  /* 7 */
+  .btn-7 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-7:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-7:hover {
+
+  }
+  .btn-7:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-7:active {
+  top: 2px;
+  }/* 8 */
+  .btn-8 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-8:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-8:hover {
+
+  }
+  .btn-8:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-8:active {
+  top: 2px;
+  }/* 9 */
+  .btn-9 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-9:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-9:hover {
+
+  }
+  .btn-9:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-9:active {
+  top: 2px;
+  }/* 10 */
+  .btn-10 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-10:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-10:hover {
+
+  }
+  .btn-10:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-10:active {
+  top: 2px;
+  }/* 11 */
+  .btn-11 {
+  color: #0bf4f3;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  border: 1px solid #0bf4f3;
+  z-index: 1;
+  }
+  .btn-11:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+  transition: all 0.3s ease;
+  }
+  .btn-11:hover {
+
+  }
+  .btn-11:hover:after {
+  top: 0;
+  height: 100%;
+  }
+  .btn-11:active {
+  top: 2px;
+  }
+  </style>
+</head>
+<body>
+         
+  <center>
+    <img src=
+    "https://github.com/GuptajiiHacker/GuptajiiHacker/assets/155041576/551f65fb-f0a9-40d8-a6b6-6a3c04a7692f"
+    alt="HackerGuptaji" width="100" height="100">
+  </center>
+  <h1 class="neonx">FOLLOW US</h1>
+  <div class="frame">
+    <button class="custom-btn btn-1"><a href=
+    "https://www.facebook.com/profile.php?id=61553140299988&mibextid=ZbWKwL" style=
+    "color:#0bf4f3;">FACEBOOK</a></button> <button class=
+    "custom-btn btn-2"><a href="https://www.instagram.com/its_vip_krishna_gupta?igsh=NmRpbzd3Y2EzaWRw" style=
+    "color:#0bf4f3;">INSTAGRAM</a></button> <button class=
+    "custom-btn btn-3"><a href="https://pin.it/1MyNb03Mj" style=
+    "color:#0bf4f3;">PINTEREST</a></button> <button class=
+    "custom-btn btn-4"><a href="https://www.linkedin.com/in/krishna-gupta-794b952b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style=
+    "color:#0bf4f3;">LINKEDIN</a></button> <button class=
+    "custom-btn btn-5"><a href="https://github.com/GuptajiiHacker" style=
+    "color:#0bf4f3;">GITHUB</a></button> <button class=
+    "custom-btn btn-6"><a href="https://github.com/GuptajiiHacker/Vip-Tools" style=
+    "color:#0bf4f3;">HACKINGTOOLS</a></button> <button class=
+    "custom-btn btn-7"><a href="" style=
+    "color:#0bf4f3;">Telegram</a></button> <button class=
+    "custom-btn btn-8"><a href="https://t.me/+t59tHpGaJBU3NTVl" style=
+    "color:#0bf4f3;">INSTAGRAM2</a></button> <button class=
+    "custom-btn btn-9"><a href="" style=
+    "color:#0bf4f3;">DISCORD</a></button> <button class=
+    "custom-btn btn-10"><a href="https://youtube.com/shorts/jrsEZ_ZqXNo?si=LTx1hto2uSF8dIYc" style=
+    "color:#0bf4f3;">YOUTUBE</a></button> <button class=
+    "custom-btn btn-11"><a href="https://www.reddit.com/u/VipKrishnaGupta/s/Y5AZsz3HoE" style=
+    "color:#0bf4f3;">Redit</a></button>
+  </div>
+</body>
+</html>
